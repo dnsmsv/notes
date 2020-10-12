@@ -8,7 +8,7 @@ export const Home = () => {
     const {loading, notes, fetchNotes, removeNote} = useContext(FirebaseContext)
 
     useEffect(() => {
-        // fetchNotes()
+        fetchNotes()
         // eslint-disable-next-line
     }, [])
 

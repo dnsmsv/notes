@@ -14,6 +14,10 @@ It's a training project. Created to learn React, functional components, reducers
 * Bootstrap 4.5.2
 * Firebase database
 
+## Launch
+
+https://dnsmsv.github.io/notes/
+
 ## Features
 
 * Adding/Removing note;

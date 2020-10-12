@@ -26,7 +26,7 @@ export const Notes = ({notes, onRemove}) => {
                     <li className="list-group-item note">
                         <div>
                             <strong>{note.title}</strong>
-                            <small>{note.date}</small>
+                            <small>{new Date(note.date).toLocaleDateString()}</small>
                         </div>
 
                         <button
